@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <title>Jogo da Memória</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<section class="botoes">
+   <h1>Jogo da Memória</h1>
+   <button id="iniciarReiniciar" onclick="iniciarJogo()">INICIAR</button>
+   <button id="melhorTempo" onclick="mostrarMelhorTempo()">MELHOR TEMPO</button>
+   <div class="row"><div class="col"><p id="timer">00:00</p></div></div>
+</section>
+<section class="jogo-memoria">
+   <div class="carta" data-serie="android" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/android.png" alt="android">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="android" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/android.png" alt="android">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="chrome" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/chrome.png" alt="chrome">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="chrome" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/chrome.png" alt="chrome">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="facebook" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/facebook.png" alt="facebook">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="facebook" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/facebook.png" alt="facebook">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="firefox" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/firefox.png" alt="firefox">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="firefox" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/firefox.png" alt="firefox">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="googleplus" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/googleplus.png" alt="googleplus">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="googleplus" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/googleplus.png" alt="googleplus">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="html5" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/html5.png" alt="html5">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="html5" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/html5.png" alt="html5">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="twitter" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/twitter.png" alt="twitter">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="twitter" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/twitter.png" alt="twitter">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="windows" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/windows.png" alt="Windows">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+
+   <div class="carta" data-serie="windows" onclick="virarCarta(this)">
+      <img class="frente" src="imagens/windows.png" alt="Windows">
+      <img class="verso" src="imagens/cross.png" alt="Carta">
+   </div>
+</section>
+<script src="./script.js"></script>
+</body>
+</html>
